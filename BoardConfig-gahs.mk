@@ -33,5 +33,6 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := dank_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/b4s4
 DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 -include vendor/google/bonito/BoardConfigVendor.mk
